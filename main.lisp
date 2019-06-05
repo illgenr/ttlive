@@ -43,5 +43,5 @@
   (minutes-to-live-remainder))
 
 (defun print-ttl()
-  (format t "You have ~D years, ~D hours, ~D mintues, and ~D seconds to live.~%"
-	  (years-to-live) (hours-to-live) (minutes-to-live) (seconds-to-live)))
+  (format t "~%~D y ~D d ~D h ~D m ~D s"
+	  (years-to-live) (days-to-live) (hours-to-live) (minutes-to-live) (seconds-to-live)))
